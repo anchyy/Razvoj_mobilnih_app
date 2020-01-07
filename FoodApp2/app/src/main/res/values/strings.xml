@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FoodApp</string>
+    <string name="labelaSifra">Naziv</string>
+    <string name="labelaGlavniNaziv">Detalji</string>
+    <string name="labelaNazad">Nazad</string>
+    <string name="labelaSlika">Slika</string>
+    <string name="Search">Search</string>
+    <string name="edit_message">Search_recipes</string>
+
+</resources>
