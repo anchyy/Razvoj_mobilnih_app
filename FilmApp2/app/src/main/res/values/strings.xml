@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">FilmApp</string>
+    <string name="labelaNaslov">Naslov</string>
+    <string name="labelaRedatelj">Redatelj</string>
+    <string name="labelaDatumIzlaska">Datum izlaska</string>
+    <string name="labelaZanr">Zanr</string>
+    <string name="labelaNazad">Nazad</string>
+    <string name="labelaSlika">Slika</string>
+    <string name="labelaNovi">Kreiraj novi film</string>
+    <string name="labelaPromjeni">Promjeni film</string>
+    <string name="labelaObrisi">Obriši film</string>
+    <string name="labelaUslikaj">Uslikaj</string>
+</resources>
+
+

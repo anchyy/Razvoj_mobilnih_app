@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/labelaNaslov"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Naslov"/>
+
+        <EditText
+            android:id="@+id/naslov"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"/>
+
+        <TextView
+            android:id="@+id/labelaRedatelj"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Redatelj"/>
+
+        <EditText
+            android:id="@+id/redatelj"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"/>
+
+
+        <TextView
+            android:id="@+id/labelaDatumIzlaska"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Datum izlaska" />
+
+
+        <TextView
+            android:id="@+id/datumIzlaska"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Select Date/Year"
+            android:layout_marginTop="50dp"
+            android:textSize="30sp"/>
+
+        <TextView
+            android:id="@+id/labelaZanr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Zanr" />
+
+
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+
+        <Button
+            android:id="@+id/noviFilm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kreiraj novi film"/>
+
+        <Button
+            android:id="@+id/uslikaj"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Uslikaj" />
+
+        <Button
+            android:id="@+id/promjenaFilma"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Promjeni film" />
+
+        <Button
+            android:id="@+id/obrisiFilm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Obrisi film" />
+
+        <Button
+            android:id="@+id/nazad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nazad" />
+
+        <ImageView
+            android:id="@+id/slikaFilma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="Slika filma"
+            tools:srcCompat="@tools:sample/avatars" />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
